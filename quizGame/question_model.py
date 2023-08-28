@@ -1,4 +1,5 @@
 class Question:
-    def __init__(self):
-      self.text
-      self.answer  
+  def __init__(self, text, answer):
+    self.text = text 
+    self.answer = answer 
+    
