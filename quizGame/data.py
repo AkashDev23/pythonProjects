@@ -1,3 +1,4 @@
+import random
 question_data = [
     {
         "text": "A slug's blood is green.",
@@ -136,3 +137,4 @@ question_data = [
         "answer": "True"
     }
 ]    
+random.shuffle(question_data)
