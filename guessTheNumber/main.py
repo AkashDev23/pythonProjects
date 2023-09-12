@@ -26,7 +26,6 @@ def checkGuess(myGuess, guess):
     
 level = input("Please select your level: easy or hard\n")
 guess = random.randint(0, 100)
-print (guess)
 
 if guessed():
     print("Congratulations! You guessed the correct number.")
